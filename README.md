@@ -9,10 +9,10 @@ https://github.com/ultralytics/yolov5
 F12→Console
 ```
 function ClickConnect(){
-  console.log("60sごとに再接続");
+  console.log("600sごとに再接続");
   document.querySelector("colab-connect-button").click()
 }
-setInterval(ClickConnect,1000*60);
+setInterval(ClickConnect,1000*600);
 ```
 ### 12時間対策
 途中経過を保存できればいけそう．
