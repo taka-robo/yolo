@@ -26,7 +26,7 @@ cd D:\yolo\yolov5
  .\.yolo\Scripts\Activate.ps1
 cd yolov5
 python .\train.py --batch 4 --epochs 100 --data 'D:\yolo\robomaster2.yaml' --name robomaster
-``
+```
 
 ## 参考文献
 https://qiita.com/PoodleMaster/items/5f2cc3248c03b03821b8
