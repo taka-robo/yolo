@@ -24,7 +24,7 @@ GTX1060のメモリサイズがgogle colabのGPUより小さいのでbatchサイ
 https://developer.nvidia.com/cuda-downloads?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exenetwork
 ### 実行コード
 ```bash
-cd D:\yolo\yolov5
+cd D:\yolo
  .\.yolo\Scripts\Activate.ps1
 cd yolov5
 python .\train.py --batch 4 --epochs 100 --data 'D:\yolo\robomaster2.yaml' --name robomaster
